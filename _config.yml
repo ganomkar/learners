@@ -1,5 +1,5 @@
-title: My Jekyll Site
-description: A simple Jekyll site deployed from the main branch.
+title: Learners Portal
+description: Welcome to Learners Portal
 url: "https://ganomkar.github.io"
 baseurl: "/learners"  # Only if the repository is not a user/organization site
 markdown: kramdown
