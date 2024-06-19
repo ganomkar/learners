@@ -1,5 +1,3 @@
-#### `cache_operations.md`
-```markdown
 # Implementing Cache Operations
 
 ## Configure Cache
@@ -103,6 +101,5 @@
            return ResponseEntity.noContent().build();
        }
    }
-   ```
 
 [Back to Table of Contents](index.md)

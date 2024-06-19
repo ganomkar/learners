@@ -1,5 +1,3 @@
-#### `bdd_tests.md`
-```markdown
 # BDD Style Tests with Cucumber
 
 ## Add Cucumber Dependencies
@@ -121,7 +119,6 @@
          plugin = {"pretty", "html:target/cucumber-reports"}
      )
      public class CucumberTestRunner {
-     }
-     ```
+     }     
 
 [Back to Table of Contents](index.md)

@@ -1,5 +1,3 @@
-#### `setup.md`
-```markdown
 # Setting Up the Project
 
 ## Create a Spring Boot Application

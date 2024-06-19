@@ -1,5 +1,3 @@
-#### `running_and_testing.md`
-```markdown
 # Running and Testing the Application
 
 ## Run the Spring Boot Application
