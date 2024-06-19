@@ -5,16 +5,7 @@ body {
     padding: 0;
     display: flex;
     justify-content: center;
-  }
-  
-  .page-content {
-    width: 80%;
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #f9f9f9;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    text-align: left;
+    background-color: #f0f0f0; /* Light grey background for the body */
   }
   
   .wrapper {
@@ -22,6 +13,16 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+  }
+  
+  .page-content {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff; /* White background for content */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: left;
   }
   
   header, footer {
@@ -35,5 +36,11 @@ body {
   header a.site-title, footer {
     text-decoration: none;
     color: #fff;
+  }
+  
+  .site-description {
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: #bbb;
   }
   
