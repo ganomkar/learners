@@ -1,0 +1,8 @@
+title: My Jekyll Site
+description: A simple Jekyll site deployed from the main branch.
+url: "https://ganomkar.github.io"
+baseurl: "/learners"  # Only if the repository is not a user/organization site
+markdown: kramdown
+theme: minima  # Optional, you can choose a Jekyll theme
+plugins:
+  - jekyll-feed
