@@ -11,6 +11,7 @@
 
 2. **Create a Feature File**:
    - Create a file `product.feature` in the `features` directory:
+
      ```gherkin
      Feature: Manage Products
 
@@ -37,6 +38,7 @@
 
 2. **Create a Step Definitions Class**:
    - Create a file `ProductSteps.java` in the `steps` directory:
+
      ```java
      @SpringBootTest
      @ContextConfiguration(classes = EcommerceApplication.class)
@@ -78,9 +80,7 @@
              updatedProduct.setName("Updated Product");
              updatedProduct.setDescription("Updated Description");
              updatedProduct.setPrice(150.0);
-             String json
-
- = new ObjectMapper().writeValueAsString(updatedProduct);
+             String json = new ObjectMapper().writeValueAsString(updatedProduct);
              resultActions = mockMvc.perform(put("/products/" + id)
                                    .contentType(MediaType.APPLICATION_JSON)
                                    .content(json));
@@ -111,6 +111,7 @@
 
 2. **Create a Test Runner Class**:
    - Create a file `CucumberTestRunner.java` in the `learners` directory:
+
      ```java
      @RunWith(Cucumber.class)
      @CucumberOptions(
@@ -120,5 +121,6 @@
      )
      public class CucumberTestRunner {
      }     
+     ```     
 
 [Back to Table of Contents](index.md)
