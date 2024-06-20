@@ -10,3 +10,6 @@ Welcome to the documentation for the BDD Style Tests with Cucumber and Java. Thi
 4. [BDD Style Tests with Cucumber](bdd_tests.md)
 5. [Running and Testing the Application](running_and_testing.md)
 6. [Conclusion](conclusion.md)
+
+<script src="assets/copy-button.js"></script>
+<link rel="stylesheet" type="text/css" href="assets/styles.css">

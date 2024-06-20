@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title | escape }} - {{ site.title | escape }}</title>
     <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.10/clipboard.min.js"></script>
   </head>
   <body>
     {% include header.html %}
@@ -14,5 +15,10 @@
       </div>
     </div>
     {% include footer.html %}
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        var clipboard = new ClipboardJS('.btn-copy');
+      });
+    </script>
   </body>
 </html>

@@ -19,3 +19,6 @@
 - After running the tests, check the test reports in `target/cucumber-reports`.
 
 [Back to Table of Contents](index.md)
+
+<script src="assets/copy-button.js"></script>
+<link rel="stylesheet" type="text/css" href="assets/styles.css">

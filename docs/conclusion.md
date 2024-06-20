@@ -5,3 +5,6 @@ In this guide, we have created a Spring Boot application that performs create, u
 By following these steps, you will have a fully functional Spring Boot application with caching and BDD tests, ready for further enhancements and deployment.
 
 [Back to Table of Contents](index.md)
+
+<script src="assets/copy-button.js"></script>
+<link rel="stylesheet" type="text/css" href="assets/styles.css">

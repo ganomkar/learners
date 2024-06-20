@@ -1,0 +1,16 @@
+.copy-button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: none;
+    background: #007bff;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 4px;
+}
+
+.copy-button:active {
+    background: #0056b3;
+}
