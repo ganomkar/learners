@@ -4,6 +4,7 @@
 
 1. **Enable Caching in Spring Boot**:
    - Add `@EnableCaching` to your main application class:
+   
      ```java
      @SpringBootApplication
      @EnableCaching
@@ -16,6 +17,7 @@
 
 2. **Configure Cache**:
    - Add cache configuration in `application.properties`:
+
      ```properties
      spring.cache.type=simple
      ```
@@ -23,6 +25,7 @@
 ## Create Cache Service
 
 1. **Create a `Product` Entity**:
+
    ```java
    @Entity
    public class Product {
@@ -38,12 +41,14 @@
    ```
 
 2. **Create a `ProductRepository` Interface**:
+
    ```java
    public interface ProductRepository extends JpaRepository<Product, Long> {
    }
    ```
 
 3. **Create a `ProductService` Class**:
+
    ```java
    @Service
    public class ProductService {
@@ -75,6 +80,7 @@
 ## Create REST Controller
 
 1. **Create a `ProductController` Class**:
+
    ```java
    @RestController
    @RequestMapping("/products")
