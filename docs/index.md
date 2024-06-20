@@ -1,6 +1,6 @@
-# E-Commerce Application Documentation
+# BDD Style Tests with Cucumber and Java
 
-Welcome to the documentation for the E-Commerce application. This guide will help you set up, implement, and test the application.
+Welcome to the documentation for the BDD Style Tests with Cucumber and Java. This guide will help you set up, implement, and test the application.
 
 ## Table of Contents
 
